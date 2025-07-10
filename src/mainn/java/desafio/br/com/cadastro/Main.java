@@ -36,9 +36,9 @@ public class Main {
         if (linguagem.contains("java") && email.equalsIgnoreCase("cesar@gmail.com") && senhaStr.contains("123")) {
             System.out.println("Contém \"Java\"?: true");
             System.out.println("E-mail válido? true");
-            System.out.println("Senha confirmada? true");
+            System.out.println("Senha confirmada? true ");
         } else {
-            System.out.println("Opss!! tem, alguma coisa errada");
+            System.out.println("Opss!! tem, alguma coisa errada!");
         }
 
         System.out.println("Última posição da letra 'a': " + nome.lastIndexOf("a"));
